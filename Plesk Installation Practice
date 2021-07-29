@@ -1,0 +1,14 @@
+Plesk Installation Reference: https://www.plesk.com/blog/various/how-to-install-plesk-on-windows/
+=-=-=-=-=-=-=
+-> Plesk One Click Installation:
+
+Installing IIS and Plesk on Windows Server:
+1. Open Server Manager on Windows Machine.
+2. Goto Add Programs and Features.
+3. Click next next upto Features and Select IIS Server.
+4. To install the Plesk on IIS server you need to download the plesk from official site : https://installer-win.plesk.com/plesk-installer.exe
+5. Open Command prompt with Administrator Privileges  and change the directory where you have downloaded the plesk configuration file as well as run below command to install the plesk.
+
+#plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=recommended
+
+=-=-=-=-=-=-==-=-=-=-=-=-=
